@@ -22,11 +22,13 @@ Aplicação simples que cadastra de tarefas desenvolvida em **Java** com **Sprin
 2.**Instalar dependências**
    ```bash
    mvn clean install
+```
 ---
 
 3.**Rodar a aplicação**
   ```bash
   mvn spring-boot:run
+```
 ---
 
 4.**Acessar o servidor**
@@ -50,6 +52,7 @@ http://localhost:8080
 	"endAt": "2025-09-30T00:00:00",
 	"idUser": "10b2126e-d8ee-4a45-a1b3-595caa5663dd"
 }
+```
 ---
 ## 👩‍💻 Autor
 
