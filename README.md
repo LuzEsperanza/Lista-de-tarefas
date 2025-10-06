@@ -18,12 +18,16 @@ Aplicação simples que cadastra de tarefas desenvolvida em **Java** com **Sprin
 ## 🔧 Como executar o projeto
 
 1. **Clonar o repositório**
+---
 2.**Instalar dependências**
    ```bash
    mvn clean install
+---
+
 3.**Rodar a aplicação**
   ```bash
   mvn spring-boot:run
+---
 
 4.**Acessar o servidor**
 http://localhost:8080
