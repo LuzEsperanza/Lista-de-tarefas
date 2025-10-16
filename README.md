@@ -8,10 +8,13 @@ Aplicação simples que cadastra de tarefas desenvolvida em **Java** com **Sprin
 - **H2** 
 - **Insomnia** (para testar as requisições REST)
 - **Visual Studio Code**
+- **Docker 🐳**
 ---
 ## ⚙️ Funcionalidades
 - Criar usuário 
-- Criar tarefas  
+- Criar tarefas
+- Listar tarefas
+- Editar tarefa
 
 ---
 
@@ -36,10 +39,12 @@ http://localhost:8080
 ---
 ## 🧠 Endpoints da API
 
-| Método | Endpoint        | Descrição                 |
-|---------|-----------------|---------------------------|
-| POST    | `/users/`       | Cria uma usuário          |
-| POST    | `/tasks/`       | Cria uma tarefas          |
+| Método | Endpoint            | Descrição                 |
+|---------|--------------------|---------------------------|
+| POST    | `/users/`          | Cria uma usuário          |
+| POST    | `/tasks/`          | Cria uma tarefas          |
+| GET     | `/tasks/`          | Listar tarefas            |
+| PUT     | `/tasks/idDetarefa`| Editar tarefa             |
 ---
 ## 📋 Exemplo de JSON para criar uma tarefa
 
